@@ -7,3 +7,4 @@ def getIndex(request):
 app = web.Application()
 app.add_routes([web.get("/", getIndex)])
 web.run_app(app, host="localhost", port=10090)
+       
